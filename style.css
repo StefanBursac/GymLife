@@ -1,0 +1,590 @@
+html
+{   
+    height:100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(37, 37, 37);
+    box-sizing: border-box;
+
+}
+.div-all
+{
+    height: 100%;
+}
+
+
+.div-header
+{
+    background: url('img/hero/hero-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.div-nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-left: 2%;
+    
+}
+
+.div-nav ul
+{
+    list-style: none;
+    display: flex;
+    margin-right: 10em;
+}
+
+.div-nav li
+{
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-left:100px;
+    
+}
+
+
+
+a,a:visited
+{
+    text-decoration: none;
+    color:white;
+}
+
+.div-slogan
+{
+    display: block;
+    margin-left:55%;
+    margin-top:10%;
+}
+
+.div-slogan p
+{   
+    color:white;
+    font-size: 200%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.div-slogan h2
+{   margin: 0%;
+    color:white;
+    font-size:500%;
+}
+
+span
+{
+    color: #f36100;
+}
+
+
+.div-second-content
+{
+    text-align: center;
+}
+
+.div-second-content p
+{
+    margin:1% 0 0 0 ;
+}
+
+.div-second-content span
+{
+    color: #f36100;
+}
+
+.div-second-content h2
+{
+    color: white;
+    font-size: 220%;
+    margin: 0%;
+}
+
+.div-second-content-offers
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.div-second-content-offers
+{   
+    align-self: center;
+}
+
+.div-img-about-container
+{
+    position: relative;
+    margin: 1%;
+}
+
+p
+{
+    margin: 0;
+}
+
+h3{
+    color: white;
+    margin: 0;
+}
+
+
+
+.div-img-about
+{
+    position:absolute;
+    size: inherit;
+    left: 0;
+    right: 0;
+    bottom:0;
+    top: 0;
+    background-color: rgba(0, 0, 0,0.9);
+    height: 20%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    border-top:5px solid darkgray;
+
+}
+
+.div-third-content
+{
+    background: url("img/banner-bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 8%;
+    height: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div-third-content h2
+{
+    font-size:300%;
+}
+
+.div-third-content p
+{
+    font-size: 150%;
+    color: rgb(182, 182, 182);
+}
+
+.div-fourth-content
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.div-fourth-content h2
+{
+    font-size:200%;
+    margin: 0;
+}
+
+.div-membership
+{   
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-membership-plan
+{
+    border:1px solid gray;
+    padding: 5%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease-out;
+}
+
+.div-membership-plan p
+{
+    margin: 0%;
+}
+
+.div-membership-plan h1
+{
+    margin: 0%;
+    font-size: 300%;
+}
+
+.div-membership-plan ul
+{
+    list-style: none;
+    padding: 0%;
+    color:darkgray;
+}
+
+.div-membership-plan button
+{
+    background-color: dimgrey;
+    border: none;
+    padding: 20px 50px;
+    text-align: center;
+    color: white;
+    font-size:100%;
+    cursor: pointer;
+ }
+
+ .div-membership-plan:hover
+ {
+    background-color: white;
+    color: black;
+ }
+
+ .div-membership-plan:hover ul
+ {
+     color:black;
+ }
+
+ .div-membership-plan:hover button
+ {
+     background-color: #f36100;
+ }
+
+ /* .div-gallery
+{
+    margin-top:5% ;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.div-gallery img
+{
+    max-width: 100%;
+    
+} */
+
+.div-instructor-team
+{   
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:5% 5%;
+}
+
+.div-instructor
+{
+    position: relative;
+    margin: 1%;
+    object-fit: cover;
+    overflow: hidden;
+    flex-shrink: 3;
+}
+
+.div-instructor-about
+{
+    position: absolute;
+    size: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.9);
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: auto;
+    transform:translateY(100%) ;
+    transition: all 0.3s ease-out;
+    border-top:5px solid darkgray;
+}   
+
+.div-instructor:hover .div-instructor-about
+{
+    transform:translateY(0%)
+}
+
+.div-footer
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.div-contact
+{
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+ 
+}
+
+.div-location
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.div-location .location
+{
+    width: 6%;
+    margin-right: 5%;
+}
+
+.div-location .phone
+{
+    width: 9%;
+    margin-right: 5%;
+}
+
+.div-location .email
+{
+    width: 10%;
+    margin-right: 5%;
+}
+
+.div-contact-second
+{
+    background-color: rgb(15, 15, 15);
+    padding: 2%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div-contact-second-first
+{
+    width: 20%;
+    
+}
+
+.div-contact-second-first img
+{
+    margin-bottom: 10%;
+}
+
+.div-social-media-img
+{
+    margin-top:5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start; 
+    margin-left:5%;
+}
+
+.div-social-media-img img
+{
+    width: 20%;
+}
+
+.div-second-contact-second
+{
+    list-style:none;
+    padding-right: 10%;
+}
+
+.div-second-contact-second h3
+{
+    margin-bottom:20%;  
+}
+
+.div-created-by
+{
+    color: white;
+    text-align: center; 
+    padding: 2%;
+}
+
+.menu
+{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 2%;
+    margin:1% -2%;
+    background-color:rgb(37, 37, 37);
+    opacity: 0;   
+    color:white;
+    padding-top: 2%; 
+    transition: 0.3s ease-out;
+}
+
+.menu li
+{   
+    padding: 0%;
+    margin: 0% 0%;
+    margin: 10% 2% 10% 2%;
+    height:50%;
+    align-self: center;
+    font-size: 80%;
+    
+}
+
+
+.li-menu:hover .menu li
+{   
+
+    opacity: 1;
+    /* animation: slideDown 1s ease-out; */
+}
+
+/* @keyframes slideDown{from{height: 0;} to{height: 50px;}} */
+
+.li-menu:hover .menu
+{
+    opacity:1;
+}
+
+.menu li:hover
+{
+    background-color: gray;
+    padding: 0%;
+    margin: 0%;
+}
+
+.hamburger-menu
+{
+    display: none;
+}
+
+.close-menu
+{
+    display: none;
+}
+
+
+
+@media (max-width:768px)
+{
+    .div-nav ul
+    {
+        display: none;
+    }
+
+ 
+    .div-nav ul.active
+    {
+        position:absolute;
+        width:100%;
+        height:100%;
+        color: white;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        z-index:1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgba(0, 0, 0,0.9);
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .close-menu
+    {
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        z-index:2;
+        width: 4%;
+        margin: 0%;
+        padding-left: 0%;
+        cursor: pointer;
+    }
+
+    .div-nav ul.active li
+    {
+        color: white;
+        display: block;
+        margin: 0%;
+        padding:0%;
+    }
+
+    .div-nav ul.active li:hover
+    {
+        background-color: rgb(37, 37, 37);
+    }
+
+    .hamburger-menu
+    {
+        display:block;
+        width:5%;
+        z-index: 9999;
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        cursor: pointer;
+    }
+
+    .div-slogan
+    {
+        margin-top:20%;
+    }
+
+    .div-membership-plan
+    {
+        width:100%;
+    }
+
+    .div-membership-plan button
+    {
+        padding: 10% 5%;
+    }
+
+    .div-instructor-about
+    {
+    transform: translateY(0%);
+    }   
+
+}
+
+
+@media(min-width:1366px)
+{
+    .div-nav ul
+    {
+        display: flex !important;
+    }
+}
