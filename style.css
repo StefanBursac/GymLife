@@ -511,6 +511,7 @@ h3{
 }
 
 
+
 .div-gallery
 {
     display: flex;
@@ -519,6 +520,26 @@ h3{
     align-items: center;
     background-color: rgb(37, 37, 37);
     margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.div-gallery img
+{
+    padding: 1%;
+    border-radius:50px 50px;
+    filter:drop-shadow(10px 10px 10px black)
+}
+
+.div-nav-gallery
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding-top: 2%;
+
 }
 
 
